@@ -1,0 +1,33 @@
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Directorio virtualenv
+venv/
+
+# Archivos de Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Archivo de base de datos SQLite
+*.sqlite3
+
+# Archivo de registro de errores
+*.log
+
+# Archivo de configuración local
+local_settings.py
+
+# Directorio de migraciones
+*/migrations/
+
+# Archivo de registro de cobertura
+.coverage
+
+# Directorio de archivos estáticos recopilados
+staticfiles/
+
+# Directorio de archivos temporales
+*.swp
+*~
