@@ -18,20 +18,35 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
     git clone https://github.com/luis930114/biblioteca.git
 
 2. Accede al directorio del proyecto
-3. Crea un entorno virtual (opcional pero recomendado): python -m venv venv
+3. Crea un entorno virtual (opcional pero recomendado): 
+```bash   
+python -m venv venv
+
 4. Activa el entorno virtual:
+   ```bash
    windows: venv\Scripts\activate
    En macOS y Linux: source venv/bin/activate
-5. Instala las dependencias del proyecto: pip install -r requirements.txt
+   
+5. Instala las dependencias del proyecto: 
+```bash
+   pip install -r requirements.txt
 6. Ejecutar Django:
   Para ejecutar el servidor de desarrollo de Django, Asegúrate de que estás en el directorio raíz del proyecto 
 7. Ejecuta el siguiente comando
+```bash
    python manage.py runserver
 8. Ejecutar las Pruebas Unitarias
 Para ejecutar las pruebas unitarias del proyecto, sigue estos pasos:
 python manage.py test prestamos
 
+9. también se puede utilizar docker, corriendo el siguiente comando
+   9.1. Crear la imagen del contenedor
+      ```bash
+      docker build -t image_biblioteca .
 
+   9.2 Correr el contenedor
+   ```bash
+   docker run -p 8080:8000 image_biblioteca
 
 
 ## API Reference
