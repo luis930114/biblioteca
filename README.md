@@ -6,19 +6,15 @@ A brief description of what this project does and who it's for
 
 ## API Reference
 
-#### Get all items
+#### Get all books
 
 ```http
-  GET /api/books
-    OBTIENE TODOS LOS LIBROS CREADOS 
+  GET /api/books 
 ```
 
 
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
 
-#### Get item
+#### Create book
 
 ```http
   POST /api/books
